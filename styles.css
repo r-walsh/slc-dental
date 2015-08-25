@@ -50,8 +50,14 @@ nav {
 	float: left;
 	margin-left: 20px;
 }
+a:visited {
+	color: #07509D;
+}
 #home {
 	color: #1791D1
+}
+#home:visited {
+	color: #1791D1;
 }
 .photo-container {
 	width: 875px;
@@ -74,9 +80,34 @@ nav {
 	margin-left: 0;
 	background-color: #686868;
 }
-
-
-
+#mid-img-container {
+	width: 95%;
+	margin: 23px auto;
+}
+#mid-img-container table {
+	margin: 0 auto;
+}
+#mid-img-container table td {
+	padding-left: 19px;
+}
+#first-mid-img {
+	padding-left: 0 !important;
+}
+td p {
+	font-size: .8em;
+	line-height: 1.7em;
+	padding-top: 15px;
+}
+th {
+	text-align: left;
+	padding-left: 19px;
+	padding-top: 0;
+}
+th a, th a:visited {
+	text-decoration: none;
+	color: #363636;
+	font-size: .8em;
+}
 
 
 
