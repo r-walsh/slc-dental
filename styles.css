@@ -10,13 +10,13 @@ header {
 	background-color: #004E8E;
 	width: 100%;
 	text-align: center;
-	font-size: .6em;
-
+	font-size: .7em;
+	font-weight: lighter;
 	border-bottom: 1px solid #378CCD;
+	padding: 1px;
 }
 header * {
 	display: inline-block;
-	padding: 1px;
 }
 header p {
 	border-right: 1px solid #2889C2;
@@ -24,6 +24,9 @@ header p {
 	color: white;
 	line-height: 7px;
 	margin-bottom: 10px;
+}
+header img {
+	margin-left: 5px;
 }
 #wrapper {
 	width: 49%;
