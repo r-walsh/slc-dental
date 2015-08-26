@@ -26,10 +26,10 @@ header p {
 	margin-bottom: 10px;
 }
 #wrapper {
-	width: 48%;
-	height: 2700px;
+	width: 50%;
+	height: 2800px;
 	background-color: #ffffff;
-	margin: 20px auto;
+	margin: 20px auto 0 auto;
 	border: 1px solid #e3e3e3;
 	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.6);
 }
@@ -108,7 +108,84 @@ th a, th a:visited {
 	color: #363636;
 	font-size: .8em;
 }
-
+#featured-case-selector-container {
+	width: 70px;
+	height: 10px;
+	float: right;
+}
+.featured-case-selector {
+	background-color: #AEAEAE;
+	height: 10px;
+	width: 14px;
+	float: right;
+	margin-right: 2px;
+}
+#selected-case {
+	background-color: #686868;
+}
+#bottom-image-container {
+	width: 875px;
+	height: 510px;
+	margin: 55px auto 10px auto;
+}
+#greeting, #signature {
+	font-size: .8em;
+	line-height: 20px;
+}
+#greeting {
+	margin: 0 auto;
+	width: 865px;
+}
+#signature {
+	margin-left: 25px;
+}
+#reviews {
+	width: 95%;
+	text-align: center;
+	margin: 0 auto;
+}
+#reviews h3 {
+	font-size: .8em;
+}
+.review {
+	text-align: left;
+	font-size: .8em;
+}
+#more-reviews {
+	text-align: center;
+	font-size: .8em;
+}
+#iframe-container {
+	width: 870px;
+	margin: 50px auto;
+}
+footer {
+	width: 50%;
+	height: 25px;
+	margin: 0 auto;
+	font-size: .6em;
+	color: white;
+	vertical-align: top;
+}
+footer p {
+	display: inline-block;
+	line-height: 20px;
+	margin-right: 60px;
+}
+footer p a, footer p a:visited {
+	color: white;
+	text-decoration: none;
+}
+#footer-nav {
+	list-style: none;
+	display: inline-block;
+	float: right;
+}
+#footer-nav li {
+	float: left;
+	padding: 0 10px;
+	border-left: 1px solid white;
+}
 
 
 
